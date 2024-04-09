@@ -1,0 +1,487 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.fixed{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    background-size: cover;
+    z-index: 10;
+ 
+}
+.Minecraft-1{
+    display: flex;
+    padding-top: 15px;
+    
+}
+.Minecraft-1 i{
+    font-size: 49px;
+    padding-left: 45px;
+}
+.mcraft-1{
+   margin-left: 300px;
+}
+.mcraft-2{
+    margin-left: 65px;
+    
+}
+.mcraft-2 a{
+    /* padding: 16px; */
+    margin: 15px;
+}
+/* button */
+.raw-1{
+    /* text-decoration: none; */
+    color: black;
+    cursor: pointer;
+}
+.raw-1:hover{
+    color: lightskyblue;
+}
+.btn-lg{
+    background-color:#116dff;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 25px;    
+    padding: 10px;
+}
+.kk1{
+    display: none;
+    
+}
+.mc-1{
+    top: 55px;
+    background-color:rgb( 234,225,245,1 );
+    text-align: center; 
+    padding: 15px;  
+}
+.Minecraft-3{
+    display: flex;
+    margin-left: 45px;
+    position:fixed;
+}
+.far-0{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 6px;
+    
+}
+.far-1{
+    margin-left: 420px;
+    font-size: 44px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+}
+.far-2{
+    margin-left: 400px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.far-3{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.far-4{
+    margin-left: 35px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.Minecraft-4{
+    margin-top: 70px;  
+ 
+ 
+}
+.mc-3{
+    background-color: white;
+    padding: 30px;
+
+}
+
+.war-1{
+    margin-left: 360px;
+    text-decoration: none;
+    color: black;
+ 
+}
+.war-2{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+.war-3{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+.war-4{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+.war-5{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.container-fluid{
+    position: relative;
+    top: 300px;
+    z-index: -1;
+}
+
+.row1{
+    width: 1250px;
+    background-color: rgb( 241,228,184 );
+    height: 605px;
+    padding-right: 280px;
+}
+.col1 {
+    width: 40%;
+    display: inline-block;
+}
+.col1 h2{
+    margin-bottom: 90px;
+}
+
+.col1 img{
+    width:650px;
+    height: 100%;
+    margin-left: 96px;
+    display: flex; 
+
+
+}
+.col2 img{
+
+
+}
+/* .col1 img{
+    width: 100%;
+    height: 100%;  
+}  */
+.kk{
+    text-decoration: none;
+    color: black;
+}
+.Minecraft-6{
+    /* padding-top: 340px; */
+    margin-top: 45px;
+    text-align: center;
+}
+.Minecraft-7{
+    display: flex;
+    overflow-x: scroll;
+    grid-gap: 20px;
+    padding: 10px;
+    flex: none;
+}
+.Minecraft-7 div{
+    display: grid;
+
+}
+.Minecraft-7 img{ 
+    width: 900px;
+    height: 100%;
+    grid-template-columns: auto auto auto auto;
+    margin-left:20px;
+   
+}
+.col1 h2{
+    font-size: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.col1 p{
+    text-align: center;
+    font-size: 15px;
+}
+.btn-2 {
+    /* background-color:rgb( 241,228,184 ); */
+    color: black;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-left: 180px;
+    padding: 10px;
+    border: 2px solid black;
+
+}
+.btn-2:hover{
+   
+    background-color: black;
+}
+.Minecraft-8 img{
+background-image: url("https://static.wixstatic.com/media/c837a6_327e6bf04c1c4443ad6c4f13728c41fb~mv2.jpg/v1/fill/w_1895,h_959,al_r,q_85,usm_0.66_1.00_0.01,enc_auto/c837a6_327e6bf04c1c4443ad6c4f13728c41fb~mv2.jpg");
+    width: 1260px;
+    height: 780px;
+}
+.mc-11{
+    width: 450px;
+    height: 350px;
+    position: relative;
+    margin-top: 40px;
+}
+.mc-11 p{
+text-align: center;
+}
+.mc-11 img{
+width: 250px;
+height: 250px;
+border-radius: 25px;
+}
+.top-img{
+    position:absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 0.7 ease;
+}
+.top-img:hover{
+    opacity: 1;
+}
+.mc-12 h3{
+    margin-top: 45px;
+    font-family: "Share", sans-serif;
+    text-align: center;
+}
+.mc-14{
+    margin-top: 35px;
+    display: flex;
+    margin-left: 125px; 
+    height: 500px;
+    position: relative;
+}
+.mc-14 li{
+    list-style-type:none;
+}
+.mc-14 img{
+    width: 500px;
+    /* position: relative; */
+}
+.top-img2{
+    position:absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 0.7 ease;
+}
+.top-img2:hover{
+    opacity: 1;
+}
+.mc-14 h5{
+    padding: 125px;
+    width: 500px;
+    height: 500px;
+    background-color: rgb( 234,225,245,1 );
+}
+.mc-15{
+    display: flex;
+  margin-left: 125px;
+    margin-bottom: 40px;
+    position: relative;
+}
+/* .mc-15 li{
+    list-style-type:none;
+} */
+.mc-15 img{
+    width: 500px;
+    height: 500px;
+    /* float: left;  */
+}
+.mc-15 h5{
+   padding: 125px;
+    width: 500px;
+    height: 500px;
+    background-color: rgb( 234,225,245,1 );
+}
+.top-img3{
+    position:absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 0.7 ease;
+    margin-left: 500px;
+}
+.top-img3:hover{
+    opacity: 1;
+}
+.btn-3{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 17px;
+}
+.btn-3:hover{
+    color: grey;
+    background-color: black;
+  
+}
+.mc-16{
+    text-align: center;
+
+}
+.mc-17{
+    display: flex;
+    overflow-x: scroll;
+    grid-gap: 20px;
+    padding: 10px;
+    flex: none;
+}
+.mc-17 div{
+    display: grid;
+
+}
+.mc-17 img{ 
+    width: 900px;
+    height: 100%;
+    grid-template-columns: auto auto auto auto;  
+}
+.mc-18{
+  margin-right: 25px;
+    display: inline-block;
+}
+.mc-18 img{
+width: 180px;
+height:195px;
+}
+.mc-19{
+    background-color: rgb( 241,228,184 ); 
+    padding: 45px;
+    display: flex;
+}
+.mc-19 li{
+    margin-left: 45px;
+    list-style-type: none;  
+    
+}
+.mc-20{
+    margin-top: 45px; 
+  
+   
+}
+.mc-20{
+    margin-left: 25px;
+    margin-top: 45px;
+    line-height: 30px;
+}
+.mc-20 i{
+  /* display: inline-block; */
+ /* margin-left: 10px; */
+    font-size: 25px;
+}
+.k-0{
+    margin-left:40px ;
+}
+.k-0 i{
+  display: inline-block;
+  font-size: 18px;
+  padding:6px;
+  cursor: pointer; 
+  margin-top: 25px;
+}
+.mc-23{
+    margin-top: 45px;
+}
+.i-0{
+    width: 250px;
+    height: 35px;
+  border: 2px ridge black;
+border-radius: 25px;
+}
+.ko-0{
+    display: inline-block;
+    margin-left:45px;
+}
+.ko-0 p{   
+    width: 90px;
+}
+.ko-0 a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 25px;
+}
+.i-1 {  
+    margin-left: 90px;
+}
+.ko-1{
+    border-radius: 25px;
+    padding: 3px;
+    background-color: rgb( 241,228,184 );
+    width: 250px;
+    border-color: black;
+}
+.ko-3{
+    margin-left: 45px;
+    margin-top: 25px;
+}
+.ra-1{
+    margin-top: 15px;
+}
+.jw-23{
+    text-align: center;
+    background-color: rgb( 241,228,184 );
+    height: 450px;
+}
+.jw-23 h1{
+    font-size: 300px;
+
+}
+.hp-10{
+    display: flex;
+
+}
+.hp-1{
+    margin-top: 265px;
+    background-color:rgb( 241,228,184 ) ;
+    width: 50%; 
+}
+.hp-1 h2{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 55px;
+}
+.hp-1 p{
+    text-align: center;
+    margin-top: 35px;
+    
+}
+.hp-2 img{
+    width: 650px;
+    margin-top: 255px;
+}
+.hp-22{
+
+  
+    text-decoration: none; 
+    color:black;
+  
+
+}
+.hp-22 p{
+    border: 2px ridge black;
+    border-color: black;
+    background-color: rgb( 241,228,184 );
+    width: 155px;
+  margin-left: 225px;
+  padding: 7px;
+  border-radius: 25px;
+}
+.hp-22:hover{
+    color: black;
+    background-color: rgb( 241,228,184 );
+  
+}
